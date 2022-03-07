@@ -46,4 +46,4 @@ nbproject/*
 /webroot/files/*
 /webroot/docs/*
 !/webroot/docs/.htacces
-
+!/webroot/files/
