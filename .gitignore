@@ -43,7 +43,7 @@ nbproject/*
 .sass-cache/
 
 #pliki ktore sa tworzone przez program
-#/webroot/files/*
+/webroot/files/*
 /webroot/docs/*
 !/webroot/docs/.htacces
 !/webroot/files/.htacces
