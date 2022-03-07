@@ -41,3 +41,9 @@ nbproject/*
 .vscode
 # Sass preprocessor
 .sass-cache/
+
+#pliki ktore sa tworzone przez program
+/webroot/files/*
+/webroot/docs/*
+!/webroot/docs/.htacces
+
