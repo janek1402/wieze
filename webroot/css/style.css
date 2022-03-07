@@ -1,0 +1,19 @@
+    select,
+    textarea {
+        height: unset;
+    }
+    
+    .big-font-h4 {
+        font-size: larger;
+        font-weight: bolder;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .show-float {
+        overflow: hidden;
+    }
+    
+    .doc-file {}

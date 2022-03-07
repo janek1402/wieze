@@ -1,0 +1,18 @@
+# Uncomment the following to prevent the httpoxy vulnerability
+# See: https://httpoxy.org/
+#<IfModule mod_headers.c>
+#    RequestHeader unset Proxy
+#</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^(\.well-known/.*)$ $1 [L]
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>
+
+php_value post_max_size 400M
+php_value upload_max_filesize 400M
+
+php_value max_execution_time 600
+php_value memory_limit 1024M

@@ -1,0 +1,28 @@
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        clear: both;
+    }
+    
+    .grid .gallery-item {
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        width: 6vw;
+        min-width: 100px;
+    }
+    
+    .gallery-item img {
+        height: 50px;
+    }
+    
+    .modal-body {
+        text-align: center;
+    }
+    
+    .checkbox {
+        position: relative;
+        left: 0%;
+        right: 0%;
+        z-index: 2;
+    }
